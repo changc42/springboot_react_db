@@ -1,0 +1,30 @@
+//tasks.register('copyStatic', Copy) {
+//    from (layout.buildDirectory) {
+//        exclude "index.html"
+//    }
+//    into layout.projectDirectory.dir("../spring_java_shopping/src/main/resources/static")
+//
+//    from (layout.buildDirectory) {
+//        include "index.html"
+//    }
+//    into layout.projectDirectory.dir("../spring_java_shopping/src/main/resources/templates")
+//}
+//
+//tasks.register('copyIndex', Copy) {
+//
+//    from layout.buildDirectory.file("index.html")
+//    into layout.projectDirectory.dir("../spring_java_shopping/src/main/resources/templates")
+//}
+
+//task copyStatic(type: Copy){
+//    from (layout.projectDirectory.dir("frontend/build")) {
+//        exclude "index.html"
+//    }
+//    into layout.projectDirectory.dir("spring_java_shopping/src/main/resources/static")
+//}
+//
+//task copyIndex(type: Copy){
+//    from layout.projectDirectory.file("frontend/build/index.html")
+//    into layout.projectDirectory.dir("spring_java_shopping/src/main/resources/templates")
+//}
+//

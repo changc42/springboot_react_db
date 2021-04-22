@@ -1,0 +1,4 @@
+rootProject.name = 'spring_java_shopping_root'
+include 'spring_java_shopping'
+include 'frontend'
+
